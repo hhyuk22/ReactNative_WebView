@@ -19,10 +19,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hrkim0101.WebViewProject"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a16bc4c8-d507-4723-a6e3-71813cadb021"
+      }
+    },
+    "owner": "hrkim0101",
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-5798235299003555~7132218310"
+        }
+      ]
+    ]
   }
 }
